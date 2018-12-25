@@ -1,0 +1,170 @@
+.wrap {
+	width: 1000px;
+	margin: auto;
+	font-family: Microsoft JhengHei, Helvetica;
+}
+.menu {
+	background: #e0e0e0;
+}
+.menu ul {
+	float: right;
+}
+.menu ul li {
+	float: left;
+	font-size: 10px;
+	padding: 0 5px;
+}
+.menu img {
+	width: 12px;
+	height: 12px;
+}
+.menu a {
+	text-decoration: none;
+}
+.menu a:hover {
+	color: #66ccff;
+}
+
+.topMenu h1 {
+	float: left;
+}
+.topMenu h1 a {
+	background: url(../img/logo.png);
+	height: 35px;
+	width: 173px;
+	display: block;
+	text-indent: 101%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.topMenu ul {
+	float: right;
+}
+.topMenu ul li  {
+	float: left;
+	
+}
+.topMenu ul li a{
+	padding: 10px;
+	color: aquamarine;
+	font-size: 13px;
+	display: block;
+	text-decoration: none;
+}
+.topMenu ul a:hover {
+	border-bottom: 3px solid aquamarine;
+}
+.headerButtom {
+	height: 340px;
+	background: url('../img/backGround.jpg');
+	color: #e0e0e0;
+}
+.title {
+	padding: 130px 0 0 50px;
+	font-size: 40px;
+}
+
+.list img {
+	display: block;
+	margin: auto;
+	padding: 5px;
+	height: 130px;
+}
+.list>li {
+	float: left;
+	width: 250px;
+	height: 260px;
+	margin: 20px;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 0px 2px 5px #dbdbdb;
+	padding: 20px;
+}
+.list h4 {
+	font-size: 20px;
+	padding: 8px;
+}
+.list p {
+	text-align: left;
+}
+.smallList {
+	list-style: disc;
+	text-align: left;
+}
+.Content h2 {
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 15px;
+}
+.Content table {
+	margin: auto;
+}
+.Content th {
+	font-weight: bold;
+	background: #f7f7f7;
+	text-align: left;
+}
+.Content th, td {
+	padding: 10px 50px;
+	border-bottom: 1px solid black;
+}
+.top {
+	color: aquamarine;
+}
+.form-Content {
+	background: linear-gradient(#00644b, #009771);
+	position: relative;
+	padding: 20px;
+	margin: 20px 0;
+	color: white;
+}
+.form-Content h4 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+}
+.form-Content input {
+	display: block;
+	margin: 10px ;
+    width: 400px;
+}
+.guestBook {
+	float: left;
+	width: 400px;
+	height: 210px;
+	margin: 30px;
+}
+.data-form{
+	float: right;
+	margin: 30px;
+}
+.submitButtom {
+	padding: 5px;
+	float: right;
+	background-color: #00cc99;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #fff;
+	width: 50px !important;
+}
+.submitButtom:hover{
+color:blue;
+background: #fff;
+}
+.clearfix::after {
+	clear: both;
+	content: '';
+	display:table;
+}
+.footer {
+	background: url('../img/footerlogo.png');
+	background-repeat: no-repeat;
+	padding: 20px 0 50px 0;
+}	
+.footer ul {
+	float: right;
+	line-height: 25px;
+}
+.footer span {
+	color: palevioletred;
+}
